@@ -23,3 +23,9 @@ export interface SocialLink {
   url: string;
   icon: string;
 }
+
+export interface Skill {
+  name: string;
+  icon: JSX.Element;
+  color: string;
+}

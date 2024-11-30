@@ -27,9 +27,9 @@ const ScrollToSection: React.FC<ScrollToSectionProps> = ({ targetId }) => {
         repeat: Infinity,
         ease: "easeInOut",
       }}
-      className="cursor-pointer p-2 rounded-full bg-white/50 hover:bg-white/80 transition-colors"
+      className="cursor-pointer p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-all duration-300"
     >
-      <ArrowDown className="w-6 h-6 text-blue-600" />
+      <ArrowDown className="w-6 h-6 text-blue-600 dark:text-blue-400" />
     </motion.button>
   );
 };
